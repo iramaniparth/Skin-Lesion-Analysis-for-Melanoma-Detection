@@ -20,5 +20,5 @@ Hence, we conclude that the CNN model worked best for detection of Melanoma in S
 Scope for Improvements:
 1) Using higher resolution for the images. We resized the images to (64, 64, 3). Using a higher resolution (like (512, 512, 3) would improve the accuracy of the model
 2) Using Data Augmentation, we can increase the noise in the data, which will help in avoiding overfitting. Creating new data by translation, rotation and fliping of the images would significantly improve the model.
-3)Using Transfer Learning, we can initialize the weights to values that proved to be very efficient in different models for image classification. This will significantly improve the model.
+3) Using Transfer Learning, we can initialize the weights to values that proved to be very efficient in different models for image classification. This will significantly improve the model.
 4) Lastly, add more layers ;-P
