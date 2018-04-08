@@ -13,7 +13,7 @@ Using sklearn, we implemented a Decision Tree Model, a Random Forest Model, a GB
 The accuracy for the Decision Tree model on the Testing Data was 65.5% using 'gini' as a parameter, and 69.5%, using entropy as a parameter.
 The accuracy for the Random Forest model on the Testing Data was 78.83%
 The accuracy for the GBM model on the Testing Data was 76.167%
-The accuracy for the SVM model on the Testing Data was 80.5% which is surprising, as it is better than the acuuracy of the CNN model, but the catch is that the SVM model predicted all the images to be benign, hence being completely useless, since it could not handle the class imbalance.
+The accuracy for the SVM model on the Testing Data was 80.5% which is surprising, as it is better than the accuracy of the CNN model, but the catch is that the SVM model predicted all the images to be benign, hence the model was very poor, since it could not handle the class imbalance.
 
 Hence, we conclude that the CNN model worked best for detection of Melanoma in Skin Lesions.
 
