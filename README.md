@@ -15,6 +15,8 @@ The accuracy for the Random Forest model on the Testing Data was 78.83%
 The accuracy for the GBM model on the Testing Data was 76.167%
 The accuracy for the SVM model on the Testing Data was 80.5% which is surprising, as it is better than the accuracy of the CNN model, but the catch is that the SVM model predicted all the images to be benign, hence the model was very poor, since it could not handle the class imbalance.
 
+This means that categorization accuracy is a poor metric to use in this case. Since we are more concerned about not allowing our predictions to have any false negatives, the correct metric to use here therefore, would be recall. The recall of the SVM model is 0, since it declared all as benign. Hence, it is a very poor model. The CNN model on the other hand, has a recall of 0.8. Hence, the CNN model is a reasonably good model.
+
 Hence, we conclude that the CNN model worked best for detection of Melanoma in Skin Lesions.
 
 Scope for Improvements:
